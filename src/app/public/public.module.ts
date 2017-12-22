@@ -1,9 +1,15 @@
 import { NgModule } from '@angular/core';
 
+import { MainMenuComponent } from './components/main-menu/main-menu.component';
+
 @NgModule({
-  declarations: [  
+  declarations: [
+    MainMenuComponent  
   ],
   imports: [
+  ],
+  exports: [
+    MainMenuComponent
   ],
   providers: [],
 })

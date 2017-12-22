@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AlertModule } from 'ngx-bootstrap';
+import { Routes, RouterModule } from '@angular/router';
 
 import { PublicModule } from './public/public.module';
-
 
 import { AppComponent } from './app.component';
 
@@ -18,6 +18,6 @@ import { AppComponent } from './app.component';
     PublicModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
