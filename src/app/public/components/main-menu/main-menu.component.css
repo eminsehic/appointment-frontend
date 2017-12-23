@@ -1,10 +1,16 @@
-.top-menu {
+.navbar {
     background-color: #3f4651;
-    color: #95a5ab;
+    font-size: 12pt;
     font-weight: bold;
-    padding: 10px;
+    font-family: 'Raleway', sans-serif;  
+    padding: 0px;
 }
 
-.menu-row {
-    margin: 0;
+.navbar a {
+    color: #d8dfe2;
+}
+
+.logo-color {
+    color: #5ccf79;
+    
 }
